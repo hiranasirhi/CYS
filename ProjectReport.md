@@ -23,10 +23,15 @@ We need to write the PHP code for ‘hehe.php’ through which the username and 
 Now, it’s time for action! Let us try to inject the URL with the java script that we have written. But, before putting the JavaScript into the URL, we need to encode it using a URL encoder. We can use http://meyerweb.com/eric/tools/dencoder/ website ( or any other online tool) for that.
 # Tools for Exploitation
 To discover and exploit an XSS vulnerability, an attacker must inject malicious code through client-side input parameters. The objective: to hijack the logic of a web application and allow, for example, the theft of cookies or session tokens, the alteration of data or content, the execution of malware, etc.  
-1. Architecture of exploiting the XSS  
-2. XSStrike  
-3. Github  
-4. Intruder
+1. OWASP ZAP  
+OWASP ZAP is a free and open-source web application security scanner that can perform various types of XSS testing, such as reflected, stored, blind, and DOM-based.      
+2. Burp Suite  
+Burp Suite is a commercial web application security testing tool that can perform advanced XSS testing.   
+3. XSStrike  
+XSStrike is a free and open-source XSS detection and exploitation tool that can perform intelligent and dynamic XSS testing.  
+4. Acunetix  
+Acunetix is a commercial web application security scanner that can perform comprehensive XSS testing.
+
 
 
 
