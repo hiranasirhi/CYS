@@ -39,6 +39,12 @@ This is one way to prevent XSS vulnerabilities in applications. Escaping means t
 Scrubs data clean of potentially executable characters. It changes unacceptable user input to an acceptable format and ensures the data received can't be interpreted as executable code. This approach is especially helpful on webpages that allow HTML markup.  
 **Validating input**     
 It makes certain an application is rendering the correct data and that malicious data does not harm a website, database and users. Validating input prevents XSS from being used in forms. It stops users from adding special characters into webpage data entry fields by refusing the request.  
+**Mitigation**  
+To mitigate the risk of XSS, it is crucial for web developers and application security teams to implement robust input validation and output encoding practices. Properly validating and sanitizing user input, as well as encoding output data to prevent script execution, are essential measures to protect against XSS attacks.  
+# Conclusion  
+In conclusion, Cross-Site Scripting (XSS) is a serious web application security vulnerability that allows attackers to inject malicious scripts into web pages viewed by other users. XSS can have significant consequences, including unauthorized access to user data, session hijacking, and the potential for spreading malware. The impact of XSS vulnerabilities can vary from minor nuisances to severe security breaches, depending on the context and the level of trust associated with the affected web application.  
+
+
 
 
 
