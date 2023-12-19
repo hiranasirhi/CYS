@@ -33,11 +33,11 @@ XSStrike is a free and open-source XSS detection and exploitation tool that can 
 Acunetix is a commercial web application security scanner that can perform comprehensive XSS testing.
 *All of these tools offer proxying, scanning, fuzzing, spidering, reporting, payload generation, filter evasion, crawler, encoder, and reverse shell features. They can be used as standalone tools or integrated with other tools or platforms.*
 # Fixing the Vulnerability  
-**Escaping user input** 
+**Escaping user input**   
 This is one way to prevent XSS vulnerabilities in applications. Escaping means taking the data an application has received and ensuring it's secure before rendering it for the user. Doing this prevents key characters in the data that a webpage receives from being interpreted as executable code. It prevents the browser from interpreting characters used to signal the start or end of executable code, and it translates them to escaped.  
-**Sanitizing user input** 
+**Sanitizing user input**   
 Scrubs data clean of potentially executable characters. It changes unacceptable user input to an acceptable format and ensures the data received can't be interpreted as executable code. This approach is especially helpful on webpages that allow HTML markup.  
-**Validating input**   
+**Validating input**     
 It makes certain an application is rendering the correct data and that malicious data does not harm a website, database and users. Validating input prevents XSS from being used in forms. It stops users from adding special characters into webpage data entry fields by refusing the request.  
 
 
