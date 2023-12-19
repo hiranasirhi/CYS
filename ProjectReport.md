@@ -21,6 +21,12 @@ Now we can capture the user credentials by adding the malicious Java Script in t
 We need to write the PHP code for ‘hehe.php’ through which the username and password will be dumped and saved on the attacker’s server. We can use free hosting servers for hosting this file. In our case we are using “000.webhost.com” server.
 4. **Step 4:**  
 Now, it’s time for action! Let us try to inject the URL with the java script that we have written. But, before putting the JavaScript into the URL, we need to encode it using a URL encoder. We can use http://meyerweb.com/eric/tools/dencoder/ website ( or any other online tool) for that.
+# Tools for Exploitation
+To discover and exploit an XSS vulnerability, an attacker must inject malicious code through client-side input parameters. The objective: to hijack the logic of a web application and allow, for example, the theft of cookies or session tokens, the alteration of data or content, the execution of malware, etc.  
+1. Architecture of exploiting the XSS  
+2. XSStrike  
+3. Github  
+4. Intruder
 
 
 
