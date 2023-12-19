@@ -13,13 +13,13 @@ In reflected XSS, the attack vector is inside the HTTP client request processed 
 cross site scripting attack can severely impact websites and web applications, damage their reputation and relationships with customers. XXS can deface websites, can result in compromised user accounts, and can run malicious code on web pages, which can lead to a compromise of the user's device.
 # Exploitation of XSS  
 Though, it is not a tough task to identify the XSS vulnerability, but most people don't know how to exploit it. As the exploitation techniques are tough and are not easily available on the web. Most people don’t know how they can take advantage of this vulnerability after they have successfully identified it in an application.  
-1. **Step 1:**
+1. **Step 1:**  
 In our case, the parameter “VID” is vulnerable for Cross Site Scripting. After entering this payload in the URL, we got an alert box on the browser. This alert message confirms that the script was successfully executed, and the “VID” parameter of the form is vulnerable for XSS attacks.
-2. **Step 2:**
+2. **Step 2:**  
 Now we can capture the user credentials by adding the malicious Java Script in the URL.
-3. **Step 3:**
+3. **Step 3:**  
 We need to write the PHP code for ‘hehe.php’ through which the username and password will be dumped and saved on the attacker’s server. We can use free hosting servers for hosting this file. In our case we are using “000.webhost.com” server.
-4. **Step 4:**
+4. **Step 4:**  
 Now, it’s time for action! Let us try to inject the URL with the java script that we have written. But, before putting the JavaScript into the URL, we need to encode it using a URL encoder. We can use http://meyerweb.com/eric/tools/dencoder/ website ( or any other online tool) for that.
 
 
